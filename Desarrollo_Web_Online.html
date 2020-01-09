@@ -41,7 +41,7 @@
         <section class="hero">
     
                 <div class="div-hero">
-                    <h1>Hola soy <strong>Jotas!</strong>, estudiante <br>de <strong>Platzi</strong> y voy a programar<br> <strong>cosas grandes</strong>.</h1>
+                    <h1 class="div-hero-text">Hola soy <strong>Jotas!</strong>, estudiante <br>de <strong>Platzi</strong> y voy a programar<br> <strong>cosas grandes</strong>.</h1>
               
                     <figure class="hero-imagencontainer">
                         <img class="hero-image" src="imagenes/gatitoStarCraft.jpg" height="168">
@@ -64,7 +64,7 @@
                 <figure class="project-imageContainer">
                     <img class="project-image" src="./imagenes/diplomaCursoGit.png" width="300"/>
                 </figure>
-                <p></p>
+               
             </article>
         </section>
         <section id="proximamente" class="the-next">
@@ -127,14 +127,28 @@
                 </article>
             </div>
         </section>
-        <section>
-             <form action="/suscripcion/">
-                <h3>Whatsapeamos?</h3>
-                <label for="email">Dejame tu email</label>
-                <input type="text" placeholder="Dejame tu email" id="email"/>
-                <input type="submit" value="Enviar!"/>
-            </form>
+        <section class="contact">
+             <form action="/suscripcion/" class="form">
+                <h3 class="contact-title">Whatsapeamos?</h3>
+                <label for="email" class="box-email-text">Dejame tu email</label>
+                <input type="text" class="box-email" placeholder="Dejame tu email" id="email"/>
+                <a href="" class="button-send">Enviar</a>
+             </form>
+             <div class="social">
+                <a class="link-social facebook" href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa_mecatr%C3%B3nica" target="_blank"></a>
+                <a class="link-social instagram" href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa_mecatr%C3%B3nica" target="_blank"></a>
+                <a class="link-social github" href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa_mecatr%C3%B3nica" target="_blank"></a>
+                <a class="link-social twiter" href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa_mecatr%C3%B3nica" target="_blank"></a>
+            </div>
         </section>
-        <footer>footer</footer>
+        <footer>
+            <div class="footer">
+                <p class="text-footer">Esto es una prueba</p>
+                <figure>
+                    <img src="imagenes/DesarrolloWeb.jpg" alt="Aqui venia una imagen" width="100" height="50"/>
+                </figure>
+                <p class="text-footer">Esto tambien es una prueba</p>
+            </div>
+        </footer>
     </body>
 </html>
